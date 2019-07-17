@@ -1,0 +1,22 @@
+<div class="formulario">
+  <h2 mat-dialog-title>AGREGAR</h2>
+
+  <form [formGroup]="form">
+    <mat-form-field>
+      <input matInput placeholder="NOMBRE" formControlName="nombre" />
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="APELLIDOS" formControlName="apellido" />
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="CORREO" formControlName="correo" />
+    </mat-form-field>
+  </form>
+
+  <mat-dialog-actions>
+    <button class="mat-raised-button" (click)="cerrar()">Cerrar</button>
+    <button class="mat-raised-button mat-primary" (click)="guardar()">
+      Guardar
+    </button>
+  </mat-dialog-actions>
+</div>

@@ -1,0 +1,18 @@
+.notif {
+    margin-left: 80%;
+    cursor: pointer;
+  }
+  
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .mat-table {
+    width: 50%;
+    margin: 2% auto;
+  }
+
+  .button {
+    width: 50%;
+    margin: 2% auto;
+  }
